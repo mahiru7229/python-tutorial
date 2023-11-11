@@ -151,7 +151,7 @@ Khái quát đơn giản, một tam giác ABC bất kì có ba cạnh a, b, c th
 |b - c| <  a  < b + c
 ```
 
-"Tổng của 2 cạnh bất kì trong một tam giác luôn lớn hơn cạnh còn lại và hiệu của chúng sẽ luôn bé hơn cạnh còn lại."
+**"Tổng của 2 cạnh bất kì trong một tam giác luôn lớn hơn cạnh còn lại và hiệu của chúng sẽ luôn bé hơn cạnh còn lại."**
 
 Tới đây thì đơn giản rồi, chỉ cần sử dụng câu lệnh `if` mà mình đã nói ở trên để giải thôi, chúng ta sẽ lấy 2 cạnh a và b để tính và so sánh với c.
 
