@@ -19,6 +19,7 @@ else:
 ```
 
 Sơ đồ: 
+
 ![Hi](image.png)
 
 ## Một vài toán tử so sánh:
