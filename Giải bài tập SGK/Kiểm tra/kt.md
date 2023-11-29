@@ -64,7 +64,7 @@ Code ví dụ:
 a = 2
 b = 2
  
-if a == b and a == b: # Mệnh đề: Nếu a = 2 và a = b thì:
+if a == 2 and a == b: # Mệnh đề: Nếu a = 2 và a = b thì:
     print("toi dep trai")
 else:
     print("toi dep gai")
@@ -89,7 +89,7 @@ Code ví dụ:
 a = 2
 b = 2
  
-if a == b or a > b: # Mệnh đề: Nếu a = 2 hoặc a > b thì:
+if a == 2 or a > b: # Mệnh đề: Nếu a = 2 hoặc a > b thì:
     print("toi dep trai")
 else:
     print("toi dep gai")
