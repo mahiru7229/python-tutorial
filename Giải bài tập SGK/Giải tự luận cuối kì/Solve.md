@@ -32,8 +32,11 @@ _PI = 3.14
 
 R = float(input('Nhap ban kinh: '))
 
+C = 2 * _PI * R
+
 S = _PI * R**2
 
+print('Chu vi hình tròn bán kính', R, ' là: ', C)
 print('Diện tích hình tròn bán kính', R, ' là: ', S)
 
 ```
