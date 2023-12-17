@@ -22,8 +22,7 @@ S : PI * R**2 -->	S = PI * R**2
 
 # print viết thường, không viết hoa chữ cái đầu tiên
 
-Print(‘Diện tích hình tròn bán kính’, r ,‘ là: ‘,S)	-->	print(‘Diện tích hình 
-tròn bán kính’,r, ’là: ’, s)
+Print(‘Diện tích hình tròn bán kính’, r ,‘ là: ‘,S)	-->	print(‘Diện tích hình tròn bán kính’,r, ’là: ’, s)
 ``` 
 b)	Sửa lại chương trình trên để thực hiện bài toán “Viết chương trình nhập vào bán kính của hình tròn, tính và đưa ra màn hình chu vi và diện tích của hình tròn đó, biết hằng số &pi; = 3,14”
 
