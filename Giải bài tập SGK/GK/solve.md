@@ -1,19 +1,19 @@
-## Giải bài tập tin học giữa kì I
+## Giải bài tập tin học giữa kì II
 
 
 
-- [Giải bài tập tin học giữa kì I](#giải-bài-tập-tin-học-giữa-kì-i)
+- [Giải bài tập tin học giữa kì II](#giải-bài-tập-tin-học-giữa-kì-ii)
 - [1. Dạng chính](#1-dạng-chính)
 - [2. Sửa bài](#2-sửa-bài)
   - [2.1 Bài 1:](#21-bài-1)
-    - [2.1.1 Giải thích cách làm](#211-giải-thích-cách-làm)
-    - [2.1.2 Code](#212-code)
+  - [2.1.1 Giải thích cách làm](#211-giải-thích-cách-làm)
+  - [2.1.2 Code](#212-code)
   - [2.2 Bài 2:](#22-bài-2)
-    - [2.2.1 Giải thích cách làm](#221-giải-thích-cách-làm)
-    - [2.2.2 Code](#222-code)
+  - [2.2.1 Giải thích cách làm](#221-giải-thích-cách-làm)
+  - [2.2.2 Code](#222-code)
   - [2.3 Bài 3:](#23-bài-3)
-    - [2.3.1 Giải thích cách làm](#231-giải-thích-cách-làm)
-    - [2.3.2 Code](#232-code)
+  - [2.3.1 Giải thích cách làm](#231-giải-thích-cách-làm)
+  - [2.3.2 Code](#232-code)
 
 
 
