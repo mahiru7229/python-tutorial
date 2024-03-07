@@ -3,28 +3,28 @@
 
 
 - [Giải bài tập tin học giữa kì I](#giải-bài-tập-tin-học-giữa-kì-i)
-    - [1. Dạng chính](#1-dạng-chính)
-    - [2. Sửa bài](#2-sửa-bài)
-      - [2.1 Bài 1:](#21-bài-1)
-      - [2.1.1 Giải thích cách làm](#211-giải-thích-cách-làm)
-      - [2.1.2 Code](#212-code)
-      - [2.2 Bài 2:](#22-bài-2)
-      - [2.2.1 Giải thích cách làm](#221-giải-thích-cách-làm)
-      - [2.2.2 Code](#222-code)
-      - [2.3 Bài 3:](#23-bài-3)
-      - [2.3.1 Giải thích cách làm](#231-giải-thích-cách-làm)
-      - [2.3.2 Code](#232-code)
+  - [1. Dạng chính](#1-dạng-chính)
+  - [2. Sửa bài](#2-sửa-bài)
+    - [2.1 Bài 1:](#21-bài-1)
+    - [2.1.1 Giải thích cách làm](#211-giải-thích-cách-làm)
+    - [2.1.2 Code](#212-code)
+    - [2.2 Bài 2:](#22-bài-2)
+    - [2.2.1 Giải thích cách làm](#221-giải-thích-cách-làm)
+    - [2.2.2 Code](#222-code)
+    - [2.3 Bài 3:](#23-bài-3)
+    - [2.3.1 Giải thích cách làm](#231-giải-thích-cách-làm)
+    - [2.3.2 Code](#232-code)
 
 
 
 
-#### 1. Dạng chính
+### 1. Dạng chính
 
 Dạng của giữa kì phần tự luận sẽ là về `string` (chuỗi, xâu).
 
-#### 2. Sửa bài
+### 2. Sửa bài
 
-##### 2.1 Bài 1: 
+#### 2.1 Bài 1: 
 
 **Bài 1: Viết chương trình để thực hiện các công việc sau:** 
 Gán xâu: 
@@ -36,7 +36,7 @@ Gán xâu:
 - Đưa ra độ dài của xâu `s`. 
 - Cho biết xâu y xuất hiện bao nhiêu lần trong xâu `s`.
 
-##### 2.1.1 Giải thích cách làm
+#### 2.1.1 Giải thích cách làm
 
 **1. Xác định vị trí đầu tiên trong xâu `s` mà từ đó xâu y xuất hiện như một xâu con của xâu `s`.** 
 
@@ -105,7 +105,7 @@ print(count) # In ra kết quả
 
 ***Chú ý: `'n'` và `'N'` là 2 kí tự hoàn toàn khác nhau (in thường và hoa là khác nhau dù cùng là một chữ)***
 
-##### 2.1.2 Code 
+#### 2.1.2 Code 
 
 ```
 s = 'Chào mừng ngày thành lập Đoàn TNCSHCM 26/03/2023'
@@ -124,24 +124,24 @@ count = s.count(y) # Đếm xem xâu y đã xuất hiện bao nhiêu lần trong
 print(count) # In ra kết quả
 ```
 
-##### 2.2 Bài 2: 
+#### 2.2 Bài 2: 
 
 **Bài 2: Viết chương trình tính số lượng các kí tự chữ cái.**
 
 ***Đang liên hệ cô để kiểm tra đề...***
 
 
-##### 2.2.1 Giải thích cách làm
+#### 2.2.1 Giải thích cách làm
 
-##### 2.2.2 Code
+#### 2.2.2 Code
 
-##### 2.3 Bài 3: 
+#### 2.3 Bài 3: 
 
 **Bài 3: Nhập vào họ tên bất kì sau đó biến đổi các chữ cái đầu tiên là in hoa**
 
 ***Và vẫn đang liên hệ cô để kiểm tra đề ...***
 
-##### 2.3.1 Giải thích cách làm
+#### 2.3.1 Giải thích cách làm
 
-##### 2.3.2 Code
+#### 2.3.2 Code
 
