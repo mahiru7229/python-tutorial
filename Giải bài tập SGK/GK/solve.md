@@ -128,20 +128,121 @@ print(count) # In ra kết quả
 
 **Bài 2: Viết chương trình tính số lượng các kí tự chữ cái.**
 
-***Đang liên hệ cô để kiểm tra đề...***
+|Input | Minh lớp 10/5 |
+|------|---------------|
+|Output|      7        |
 
 
 ### 2.2.1 Giải thích cách làm
 
+**Một chút về `string.isdigit()` và `string.isalpha()`.**
+
+**`string.isdigit()` kiểm tra xem kí tự có phải là số hay không.**
+
+VD: 
+```
+a = "1"
+b = "G"
+print(a.isdigit()) # True vì 1 là số
+print(b.isdigit()) # False vì "G" không phải là số
+``` 
+
+**`string.isalpha()` kiểm tra xem kí tự có phải là chữ cái (Alpha-B) hay không.**
+
+VD: 
+```
+a = "1"
+b = "G"
+print(a.isalpha()) # False vì 1 không phải kí tự chữ
+print(b.isalpha()) # True vì "G" là kí tự chữ
+``` 
+
+Bản chất đầu vào là một `string`, nên chúng ta cần phải xét từng kí tự của nó có phải là **chữ cái** hay không bằng cách sử dụng **vòng lặp**, **câu điều kiện (rẽ nhánh)** và **`string.isalpha()`** để kiểm tra.
+
+```
+a = "Minh lớp 10/5"
+
+count = 0 # Biến đếm
+
+for i in range(len(a)):
+  <code>
+```
+
+Chúng ta sẽ duyệt qua số lần bằng độ dài của xâu. VD trên thì độ dài xâu lúc này là $13$ nên chúng ta có $13$ lần lặp.
+
+**Giờ i sẽ là từng giá trị từ $0$ -> $12$.**
+
+
+```
+if a[i].isalpha():
+  count = count + 1
+```
+
+Tại vị trí thứ `i`, ta kiểm tra kí tự có phải là một chữ cái hay không.
+
+Nếu đúng thì câu điều kiện sẽ có dạng kiểu này: 
+
+```
+if True:
+  count = count + 1
+```
+
+Tương tự với `False`.
+
+Và in ra kết quả thôi :D
+
+```
+print(count) # In ra kết quả
+```
+
+
+
 ### 2.2.2 Code
+
+```
+s = input() # Nhập từ bàn phím string (không có int() đâu nha // >.< //)
+
+count = 0
+
+for i in range(len(s)):
+    if s[i].isalpha():
+        count = count + 1
+print(count)
+```
 
 ### 2.3 Bài 3: 
 
 **Bài 3: Nhập vào họ tên bất kì sau đó biến đổi các chữ cái đầu tiên là in hoa**
 
-***Và vẫn đang liên hệ cô để kiểm tra đề ...***
+|Input | lê quang hiếu |
+|------|---------------|
+|**Output**| **Lê Quang Hiếu** |
 
 ### 2.3.1 Giải thích cách làm
 
+**Cái này chả biết giải thích sao nên dùng AI giải thích giúp ha :)**
+
+Đầu tiên, bạn khởi tạo hai chuỗi, `s` và `str_phu`. `s` là chuỗi bạn muốn chuyển đổi, trong khi `str_phu` là chuỗi bạn sẽ sử dụng để lưu trữ kết quả.
+
+Vòng lặp while sẽ chạy cho đến khi `s` trở thành chuỗi rỗng. Trong mỗi lần lặp, bạn tìm vị trí của khoảng trắng đầu tiên trong `s` bằng cách sử dụng `s.find(" ")`, rồi lấy phần chuỗi từ đầu đến vị trí đó, biến chữ cái đầu tiên thành chữ hoa và thêm vào `str_phu`. Sau đó, bạn cắt bỏ phần chuỗi bạn vừa xử lý khỏi `s`.
+
+Cuối cùng, bạn loại bỏ khoảng trắng cuối cùng trong `str_phu` bằng cách sử dụng `str_phu[0:len(str_phu)-1]`, rồi in `str_phu`.
+
 ### 2.3.2 Code
 
+```
+s = input()
+s = s+" " # Thêm khoảng trắng để tránh lỗi vòng lặp (khi lấy từ cuối)
+
+str_phu = ""
+
+while s != "":     # s sẽ bị cắt đến khi trống thì sẽ dừng
+    temp = s[:s.find(" ")].capitalize()     # Cắt đoạn từ đầu string s đến nơi tìm được " " đầu tiên.
+
+    str_phu = str_phu + temp + " "         # Thêm vào str_phu và thêm " ", vì temp không hề có " ", in ra sẽ xấu. 
+    
+    s = s[s.find(" ") + 1 :]         # Cắt string s chỉ lấy phần chưa xử lí (sau dấu " " đến hết)
+
+str_phu = str_phu[0:len(str_phu)-1]      # Xóa dấu cách mà mình đã thêm ở đầu code
+print(str_phu) # In ra kết quả
+```
